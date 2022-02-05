@@ -1,0 +1,106 @@
+;elosnoc egakcap
+
+;egarotS.egarots tropmi
+
+;syarrA.litu.avaj tropmi
+;stcejbO.litu.avaj tropmi
+
+{ tuptuOelosnoC ssalc cilbup
+{ )(sgniteerGtnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)".ytisrevinu eht tcepsni ot pleh lliw hcihw margorp eht ot emocleW"(nltnirp.tuo.metsyS        
+;)":siht od uoy pleh ot sdnammoc fo tsil a si ereH"(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+{ )(noitcurtsnItnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)")stcejbus s'tneduts a fo lla ni APG a teG(        1- ro erocs_tneduts_egareva_teg-"(nltnirp.tuo.metsyS        
+;)")puorg detceles a ni tcejbus detceles a ni APG a teG(  2- ro erocs_tcejbus_puorg_egareva_teg-"(nltnirp.tuo.metsyS        
+;)")ytisrevinu eht ssorca tcejbus a ni APG a teG(        3- ro erocs_tcejbus_egareva_teg-"(nltnirp.tuo.metsyS        
+;)")sdnammoc elbaliava lla fo tsiL(                                   pleh-"(nltnirp.tuo.metsyS        
+;)")margorp eht dnE(                                   tixe-"(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )(snoitcurtsnItnedutStnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)":dnammoc eht retnE"(nltnirp.tuo.metsyS        
+;)"tneduts-"(nltnirp.tuo.metsyS        
+;)".stcejbus cimedaca sih fo lla ni APG eht teg ot eman s'tneduts eht dna"(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )erocSegareva tni ,emaNtneduts gnirtS(erocSegarevAtnedutStnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)"!" + erocSegareva + " fo egareva tniop edarg a sah tneduts " + emaNtneduts(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )erocSegareva tni ,tcejbus gnirtS(erocSegarevAtcejbuSytisrevinUtnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)"!" + erocSegareva + " = ytisrevinu eht ssorca " + tcejbus + " ni erocs egarevA"(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )(snoitcurtsnItcejbuSegarevAtnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)":dnammoc eht retnE"(nltnirp.tuo.metsyS        
+;)">eman tcejbus< tcejbus-"(nltnirp.tuo.metsyS        
+;)".ytisrevinu eritne eht ssorca tcejbus taht rof APG eht teg otn\ ) yhposolihP ,yhpargoerohC ,slliks gnitcA ,erutaretiL ,yrotsih_eivoM ,gnittes_thgiL ,gnitide_oediV ,gnireenigne_dnuoS ,gniwarD ,gnitniaP ,erutplucS ,yhpargillaC (n\ eman tcejbus dna"(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )(snoitcurtsnIytlucaFtnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)":dnammoc eht retnE"(nltnirp.tuo.metsyS        
+;)">eman ytlucaf< ytlucaf-"(nltnirp.tuo.metsyS        
+;)")ytlucaF_ertaehT ,strAneercS_fO_ytlucaF ,ytlucaF_trA("(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )(snoitcurtsnIpuorGytlucaFtnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)":dnammoc eht retnE"(nltnirp.tuo.metsyS        
+;)">eman puorg< puorg-"(nltnirp.tuo.metsyS        
+;)")B ,A("(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )ytlucaf gnirtS(snoitcurtsnItcejbuSpuorGytlucaFtnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)":dnammoc eht retnE"(nltnirp.tuo.metsyS        
+;)">eman tcejbus< snossel-"(nltnirp.tuo.metsyS        
+{ ))"ytlucaF_trA" ,ytlucaf(slauqe.stcejbO( fi        
+;)))(stcejbuScimedacAytlucaFtrAteg.egarotS(gnirtSot.syarrA(nltnirp.tuo.metsyS            
+{ ))"strAneercS_fO_ytlucaF" ,ytlucaf(slauqe.stcejbO( fi esle }        
+;)))(stcejbuScimedacAstrAneercSfOytlucaFteg.egarotS(gnirtSot.syarrA(nltnirp.tuo.metsyS            
+{ ))"ytlucaF_ertaehT" ,ytlucaf(slauqe.stcejbO( fi esle }        
+;)))(stcejbuScimedacAytlucaFertaehTteg.egarotS(gnirtSot.syarrA(nltnirp.tuo.metsyS            
+}        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )erocSegareva tni ,tcejbus gnirtS ,puorg gnirtS ,ytlucaf gnirtS(erocSegarevAtcejbuSpuorGytlucaFtnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)erocSegareva + " = "\" + ytlucaf + ""\ eht ni "\" + puorg + ""\ puorg ni "\" + tcejbus + ""\ rof APG A"(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )(emaNstnedutSllAtnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)))(gnirtSot.tneduts(nltnirp.tuo.metsyS >- tneduts(hcaErof.)(stnedutSytisrevinUllAteg.egarotS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )(rorrEtupnItnirp diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)"!!! deretne dnammoc dilavnI !!!"(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+
+{ )(tixe diov cilbup    
+;)"******************************************"(nltnirp.tuo.metsyS        
+;)"...margorp eht gnitanimreT"(nltnirp.tuo.metsyS        
+;)"******************************************"(nltnirp.tuo.metsyS        
+}    
+}

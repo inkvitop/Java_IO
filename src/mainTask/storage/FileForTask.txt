@@ -1,0 +1,36 @@
+[]Geek Music - The Best Video Game Music Vol. 1-2 (2018)/..
+--[]Vol. 1/..
+----01. Tetris (1984) - Main Theme.mp3
+----02. The Legend of Zelda (1986) - Main Theme.mp3
+----03. Mortal Kombat (1992) - Theme Song - Techno Syndrome.mp3
+----04. Metal Gear Solid 2 (2001) - Main Theme.mp3
+----05. Battlefield 1942 (2002) - Main Theme.mp3
+----06. Final Fantasy X (2002) - To Zanarkand.mp3
+----07. Grand Theft Auto (2004) - San Andreas - Main Theme.mp3
+----08. World of Warcraft (2004) - Legends of Azeroth.mp3
+----09. God of War (2005) - Main Title Menu - The Vengeful Spartan.mp3
+----10. Shadow of the Colossus (2005) - The Opened Way.mp3
+----11. Halo 3 (2007) - One Final Effort.mp3
+----12. Uncharted (2007) - Nathan Drake's Theme.mp3
+----13. Grand Theft Auto IV (2008) - Theme Song - Soviet Connection.mp3
+----14. Angry Birds (2009) - Main Theme.mp3
+----15. Assassin's Creed 2 (2009) - Ezio's Family.mp3
+----cover.jpg
+--[]Vol. 2/..
+----01. League of Legends (2009) - Login Theme.mp3
+----02. Red Dead Redemption (2010) - Exodus in America.mp3
+----03. Crysis 2 (2011) - Epilogue - Main Theme.mp3
+----04. Minecraft (2011) - Volume Alpha - Minecraft - Main Theme - Calm 1.mp3
+----05. Mass Effect 3 (2012) - Leaving Earth.mp3
+----06. Grand Theft Auto V (2013) - Welcome to Los Santos - Main Theme.mp3
+----07. The Last Of Us (2013) - Main Theme.mp3
+----08. Hearthstone (2014) - Main Title.mp3
+----09. Undertale (2015) - Megalovania.mp3
+----10. Fallout 4 (2015) - Main Theme.mp3
+----11. Rocket League (2015) - Theme.mp3
+----12. Overwatch (2016) - Main Theme-Victory.mp3
+----13. Call Of Duty WWII (2017) - A Brotherhood Of Heroes.mp3
+----14. Fortnite Battle Royale (2017) - Main Menu Theme.mp3
+----15. Playerunknown's Battlegrounds (2017) - Theme.mp3
+----cover.jpg
+----[]test/..

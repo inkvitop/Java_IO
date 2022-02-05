@@ -1,0 +1,3 @@
+[]storage/..
+--FileForTask.txt
+--ResultTextFile.txt

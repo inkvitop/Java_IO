@@ -1,0 +1,106 @@
+PACKAGE CONSOLE;
+
+IMPORT STORAGE.STORAGE;
+
+IMPORT JAVA.UTIL.ARRAYS;
+IMPORT JAVA.UTIL.OBJECTS;
+
+PUBLIC CLASS CONSOLEOUTPUT {
+    PUBLIC VOID PRINTGREETINGS() {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("WELCOME to THE PROGRAM WHICH WILL HELP to INSPECT THE UNIVERSITY.");
+        SYSTEM.OUT.PRINTLN("HERE is a LIST of COMMANDS to HELP YOU do THIS:");
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+    PUBLIC VOID PRINTINSTRUCTION() {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("-GET_AVERAGE_STUDENT_SCORE or -1        (GET a GPA in ALL of a STUDENT'S SUBJECTS)");
+        SYSTEM.OUT.PRINTLN("-GET_AVERAGE_GROUP_SUBJECT_SCORE or -2  (GET a GPA in a SELECTED SUBJECT in a SELECTED GROUP)");
+        SYSTEM.OUT.PRINTLN("-GET_AVERAGE_SUBJECT_SCORE or -3        (GET a GPA in a SUBJECT ACROSS THE UNIVERSITY)");
+        SYSTEM.OUT.PRINTLN("-HELP                                   (LIST of ALL AVAILABLE COMMANDS)");
+        SYSTEM.OUT.PRINTLN("-EXIT                                   (END THE PROGRAM)");
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID PRINTSTUDENTINSTRUCTIONS() {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("ENTER THE COMMAND:");
+        SYSTEM.OUT.PRINTLN("-STUDENT");
+        SYSTEM.OUT.PRINTLN("AND THE STUDENT'S NAME to GET THE GPA in ALL of HIS ACADEMIC SUBJECTS.");
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID PRINTSTUDENTAVERAGESCORE(STRING STUDENTNAME, INT AVERAGESCORE) {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN(STUDENTNAME + " STUDENT HAS a GRADE POINT AVERAGE of " + AVERAGESCORE + "!");
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID PRINTUNIVERSITYSUBJECTAVERAGESCORE(STRING SUBJECT, INT AVERAGESCORE) {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("AVERAGE SCORE in " + SUBJECT + " ACROSS THE UNIVERSITY = " + AVERAGESCORE + "!");
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID PRINTAVERAGESUBJECTINSTRUCTIONS() {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("ENTER THE COMMAND:");
+        SYSTEM.OUT.PRINTLN("-SUBJECT <SUBJECT NAME>");
+        SYSTEM.OUT.PRINTLN("AND SUBJECT NAME \N( CALLIGRAPHY, SCULPTURE, PAINTING, DRAWING, SOUND_ENGINEERING, VIDEO_EDITING, LIGHT_SETTING, MOVIE_HISTORY, LITERATURE, ACTING SKILLS, CHOREOGRAPHY, PHILOSOPHY ) \NTO GET THE GPA FOR THAT SUBJECT ACROSS THE ENTIRE UNIVERSITY.");
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID PRINTFACULTYINSTRUCTIONS() {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("ENTER THE COMMAND:");
+        SYSTEM.OUT.PRINTLN("-FACULTY <FACULTY NAME>");
+        SYSTEM.OUT.PRINTLN("(ART_FACULTY, FACULTY_OF_SCREENARTS, THEATRE_FACULTY)");
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID PRINTFACULTYGROUPINSTRUCTIONS() {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("ENTER THE COMMAND:");
+        SYSTEM.OUT.PRINTLN("-GROUP <GROUP NAME>");
+        SYSTEM.OUT.PRINTLN("(A, B)");
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID PRINTFACULTYGROUPSUBJECTINSTRUCTIONS(STRING FACULTY) {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("ENTER THE COMMAND:");
+        SYSTEM.OUT.PRINTLN("-LESSONS <SUBJECT NAME>");
+        if (OBJECTS.EQUALS(FACULTY, "ART_FACULTY")) {
+            SYSTEM.OUT.PRINTLN(ARRAYS.TOSTRING(STORAGE.GETARTFACULTYACADEMICSUBJECTS()));
+        } ELSE if (OBJECTS.EQUALS(FACULTY, "FACULTY_OF_SCREENARTS")) {
+            SYSTEM.OUT.PRINTLN(ARRAYS.TOSTRING(STORAGE.GETFACULTYOFSCREENARTSACADEMICSUBJECTS()));
+        } ELSE if (OBJECTS.EQUALS(FACULTY, "THEATRE_FACULTY")) {
+            SYSTEM.OUT.PRINTLN(ARRAYS.TOSTRING(STORAGE.GETTHEATREFACULTYACADEMICSUBJECTS()));
+        }
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID PRINTFACULTYGROUPSUBJECTAVERAGESCORE(STRING FACULTY, STRING GROUP, STRING SUBJECT, INT AVERAGESCORE) {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("A GPA FOR \"" + SUBJECT + "\" in GROUP \"" + GROUP + "\" in THE \"" + FACULTY + "\" = " + AVERAGESCORE);
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID PRINTALLSTUDENTSNAME() {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        STORAGE.GETALLUNIVERSITYSTUDENTS().FOREACH(STUDENT -> SYSTEM.OUT.PRINTLN(STUDENT.TOSTRING()));
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID PRINTINPUTERROR() {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("!!! INVALID COMMAND ENTERED !!!");
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+
+    PUBLIC VOID EXIT() {
+        SYSTEM.OUT.PRINTLN("******************************************");
+        SYSTEM.OUT.PRINTLN("TERMINATING THE PROGRAM...");
+        SYSTEM.OUT.PRINTLN("******************************************");
+    }
+}
